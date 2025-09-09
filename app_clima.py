@@ -1,3 +1,4 @@
+# Importação de bibliotecas e funções
 import streamlit as st # Permite criar a interface visual
 from datetime import datetime # Permite acessar o horário atual
 from model import gerar_recomendacao # Necessário para buscar as recomendações do modelo de IA
