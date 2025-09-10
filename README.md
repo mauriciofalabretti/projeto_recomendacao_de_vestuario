@@ -24,24 +24,25 @@ Este projeto consiste em interagir com o usuário para receber sua cidade, busca
 
 ### Configurando o Ambiente
 
-1º Abra o terminal e clone o repositóri digitando: git clone https://github.com/mauriciofalabretti/projeto_recomendacao_de_vestuario ;
-2º Navegue para a pasta do projeto com o comando:
+- 1º Abra o terminal e clone o repositóri digitando: git clone https://github.com/mauriciofalabretti/projeto_recomendacao_de_vestuario ;
+- 2º Navegue para a pasta do projeto com o comando:
 cd projeto_recomendacao_de_vestuario ;
 3º Crie um ambiente virtual digitando: python -m venv .venv ; 
-4º Ative o ambiente virtual com o comando: .venv\Scripts\activate ;
-5º Instale as bibliotecas com: pip install -r requirements.txt ;
+- 4º Ative o ambiente virtual com o comando: .venv\Scripts\activate ;
+- 5º Instale as bibliotecas com: pip install -r requirements.txt ;
 
 ### Autenticação para APIs
 
 Para executar o projeto, é necessária a obtenção de tokens de acessar as API utilizadas.
 
 **WeatherAPI**:
-1º Acesse https://www.weatherapi.com;
-2º Crie uma conta, cadastrando os dados solicitados;
-3º Faça login e siga até o dashboard;
-4º Procure pela seção "API Key", a chave é gerada automaticamente.
-5º Após copiar a chave, acesse o terminal dentro da pasta do projeto;
-6º Digite o seguinte comando para definir a variável de ambiente: set WEATHER_API_KEY="cole aqui a chave de api copiada" ; 
+
+- 1º Acesse https://www.weatherapi.com;
+- 2º Crie uma conta, cadastrando os dados solicitados;
+- 3º Faça login e siga até o dashboard;
+- 4º Procure pela seção "API Key", a chave é gerada automaticamente.
+- 5º Após copiar a chave, acesse o terminal dentro da pasta do projeto;
+- 6º Digite o seguinte comando para definir a variável de ambiente: set WEATHER_API_KEY="cole aqui a chave de api copiada" ; 
 
 ### Executando
 
@@ -67,7 +68,7 @@ Para executar o projeto, é necessária a obtenção de tokens de acessar as API
 
 ---
 
-**Versão aplicativo web(navegador)**
+**Versão aplicativo web (navegador)**
 
 1º Mostra a entrada do usuário com a sugestão de cidades:
 ![Cidade digitada pelo usuário e sugestões](images/streamlit_exec_01.png)
