@@ -24,12 +24,12 @@ Este projeto consiste em interagir com o usuário para receber sua cidade, busca
 
 ### Configurando o Ambiente
 
-- 1º Abra o terminal e clone o repositóri digitando: git clone https://github.com/mauriciofalabretti/projeto_recomendacao_de_vestuario ;
+- 1º Abra o terminal e clone o repositóri digitando: *git clone https://github.com/mauriciofalabretti/projeto_recomendacao_de_vestuario* ;
 - 2º Navegue para a pasta do projeto com o comando:
-cd projeto_recomendacao_de_vestuario ;
-3º Crie um ambiente virtual digitando: python -m venv .venv ; 
-- 4º Ative o ambiente virtual com o comando: .venv\Scripts\activate ;
-- 5º Instale as bibliotecas com: pip install -r requirements.txt ;
+*cd projeto_recomendacao_de_vestuario* ;
+3º Crie um ambiente virtual digitando: *python -m venv .venv* ; 
+- 4º Ative o ambiente virtual com o comando: *.venv\Scripts\activate* ;
+- 5º Instale as bibliotecas com: *pip install -r requirements.txt* ;
 
 ### Autenticação para APIs
 
@@ -42,15 +42,15 @@ Para executar o projeto, é necessária a obtenção de tokens de acessar as API
 - 3º Faça login e siga até o dashboard;
 - 4º Procure pela seção "API Key", a chave é gerada automaticamente.
 - 5º Após copiar a chave, acesse o terminal dentro da pasta do projeto;
-- 6º Digite o seguinte comando para definir a variável de ambiente: set WEATHER_API_KEY="cole aqui a chave de api copiada" ; 
+- 6º Digite o seguinte comando para definir a variável de ambiente: *set WEATHER_API_KEY="cole aqui a chave de api copiada"* ; 
 
 ### Executando
 
 **Para a versão do terminal**
-- Dentro do terminal, com o ambiente virtual ativo, digite o comando: python main.py ;
+- Dentro do terminal, com o ambiente virtual ativo, digite o comando: *python main.py* ;
 
 **Para a versão de aplicação web (navegador)**
-- Dentro do terminal, com o ambiente virtual ativo, digite: streamlit run app_clima.py 
+- Dentro do terminal, com o ambiente virtual ativo, digite: *streamlit run app_clima.py* 
 
 
 #### Imagens
